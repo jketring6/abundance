@@ -1,5 +1,5 @@
 var exports = module.exports = {}
- 
+
 exports.signup = function(req, res) {
  
     res.render('signup');
@@ -15,6 +15,12 @@ exports.signin = function(req, res) {
 exports.dashboard = function(req, res) {
  
     res.render('dashboard');
+ 
+}
+
+exports.forum = function(req, res) {
+ 
+    res.render('forum');
  
 }
 

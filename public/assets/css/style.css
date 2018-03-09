@@ -1,0 +1,180 @@
+/*@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);*/
+
+.wrapper {
+	background: url(../images/orangesBG.gif) no-repeat top center fixed;
+	background-size: cover;
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+.wrapper-two {
+	background: url(../images/4.jpeg) no-repeat top center fixed;
+	background-size: cover;
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+
+body, html {
+	font-family: 'Nanum Pen Script', cursive;
+	background-color: #c3bd91;
+}
+
+.row {
+	margin:0 !important;
+}
+
+.footer {
+	width: 100%;
+	background-color: #c3bd91;
+	text-align: center;
+	margin-top: 23%;
+	margin-bottom: 0;
+	font-size: 18px;
+	height: 22px;
+}
+/*LOGIN STYLING*/
+
+.login_signup_panel {
+	margin-top: 75%;
+	background-color: #c3bd91;
+	opacity: .8;
+	border-radius: 200px;
+	padding: 10%;
+	
+}
+
+h1 {
+	margin-top: 10%;
+	color: #94a9b2;
+	font-size: 110px;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h2 {
+	color: #94a9b2;
+	font-size: 90px;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h4 {
+	font-size: 60px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.logoContainer {
+	background-color: #c3bd91;
+	border-radius: 200%;
+	opacity: .8;
+	padding: .2%;
+	text-align: center;
+}
+
+#login_panel, #signup_panel {
+	text-align: center;
+}
+
+.about_us {
+	margin-top: 20%;
+	text-align: center;
+	background-color: #c3bd91;
+	padding: 3%;
+	background: linear-gradient(0deg, #c3bd91, transparent),
+				linear-gradient(180deg, #c3bd91, transparent);
+	padding: 10%;
+}
+
+/*DASH STYLING*/
+
+#offering_scroll, #community_items_scroll {
+  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#offering_panel, #community_items_panel {
+	background-color: #c3bd91;
+	margin-top: 10%;
+	text-align: center;
+	padding: 10%;
+}
+
+
+/*Forum Styling*/
+/*body {
+    background-image: url("4.jpeg");
+  position: relative;
+}*/
+
+
+.navbar {
+    margin-bottom: 1%;
+    opacity: .8;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 120px;
+    color: white;
+    opacity: .9;
+}
+
+.btn {
+    text-align: center;
+    align-self: center;
+}
+
+.wrapper{
+	opacity: .9;
+}
+
+p{
+	color: #401d0a;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+
+.pic-container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  background-color: #c3bd91;
+  opacity: .3;
+  border-radius: 20px;
+}
+
+.pic-row {
+ 
+  width: 960px;
+  height: 500px;
+  overflow: auto;
+}
+
+.container{
+	margin-bottom: 2%;
+}
+
+hr{
+	height: 20px;
+	color: #c3bd91;
+	background-color: #c3bd91;
+
+}
+
+/*==============================*/

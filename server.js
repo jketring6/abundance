@@ -26,30 +26,23 @@ app.use(passport.session()); // persistent login sessions
  
  
 //For Handlebars
-app.set('views', './app/views')
+// app.set('views', __dirname'/app/views')
 app.engine('hbs', exphbs({
     extname: '.hbs',
+    defaultLayout: 'main'
 }));
 app.set('view engine', '.hbs');
  
- 
- 
-app.get('/', function(req, res) {
- 
-    res.send('home');
- 
-});
- 
 //Models
-var db = require("./app/models");
+var db = require("./models");
  
 //Routes
  
-var authRoute = require('./app/routes/auth.js')(app,passport);
+var authRoute = require('./routes/auth.js')(app,passport);
  
  
 //load passport strategies
-require('./app/config/passport/passport.js')(passport, db.user);
+require('./config/passport/passport.js')(passport, db.user);
  
  
 //Sync Database
