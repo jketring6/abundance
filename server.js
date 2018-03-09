@@ -32,6 +32,9 @@ app.engine('hbs', exphbs({
     defaultLayout: 'main'
 }));
 app.set('view engine', '.hbs');
+
+// Static directory
+app.use(express.static("./public"));
  
 //Models
 var db = require("./models");

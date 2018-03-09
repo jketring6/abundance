@@ -1,5 +1,4 @@
-/*@import "compass/css3";
-@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);*/
+
 
 .wrapper {
 	background: url(../images/orangesBG.gif) no-repeat top center fixed;
@@ -177,4 +176,6 @@ hr{
 
 }
 
+/*@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);*/
 /*==============================*/
